@@ -14,7 +14,7 @@ let package = Package(
             targets: ["SygicMaps"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/Sygic/SygicAuth-SPMh", from: "1.3.2")
+        .package(url: "https://github.com/Sygic/SygicAuth-SPM", from: "1.3.2")
     ],
     targets: [
         .binaryTarget(
