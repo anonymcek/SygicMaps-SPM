@@ -15,7 +15,7 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/Sygic/SygicAuth-SPM", from: "2.0.0")
+        .package(url: "https://github.com/Sygic/SygicAuth-SPM", from: "1.3.0")
     ],
     targets: [
         .target(
@@ -29,8 +29,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "SygicMaps",
-            url: "https://public.repo.sygic.com/repository/maven-sygic-releases/com/sygic/sdk/maps-ios/27.1.1/maps-ios-27.1.1.zip",
-            checksum: "a3f29fbae9838860eb3c0cc2da88e2b479547a1ea20109f8baf9d74712054799"
+            url: "https://public.repo.sygic.com/repository/maven-sygic-releases/com/sygic/sdk/maps-ios/25.9.11/maps-ios-25.9.11.zip",
+            checksum: "ef446b55fc4668eda1178f4522a0139b9a189ffdb86cd773c3f3fa202bcfe2f2"
         )
     ]
 )
